@@ -1,13 +1,15 @@
 export default function Navbar() {
   return (
-    <nav>
+    <nav className="nav">
       <section>
-        <p>Zaire McAllister</p>
+        <h1 className="name">Zaire McAllister</h1>
       </section>
       <section>
-        <p>Projects</p>
-        <p>About</p>
-        <p>Contact</p>
+        <ul className="nav-list">
+          <li>PROJECTS</li>
+          <li>ABOUT</li>
+          <li>CONTACT</li>
+        </ul>
       </section>
     </nav>
   );
