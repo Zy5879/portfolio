@@ -10,7 +10,12 @@ export default function AvatarModel() {
   }, []);
   return (
     <group>
-      <primitive object={avatar.scene} scale={2} position-y={-3} />
+      <primitive
+        object={avatar.scene}
+        scale={2}
+        position-y={-1.5}
+        position-x={-0.6}
+      />
     </group>
   );
 }
